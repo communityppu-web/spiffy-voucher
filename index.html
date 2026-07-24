@@ -1,1 +1,108 @@
-hello
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Klaim Cashback Spiffy Laundry</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img
+class="banner"
+src="https://i.imgur.com/k5sitdy.png"
+alt="Spiffy Laundry">
+
+<div class="card">
+
+<h1>Klaim <b>Cashback 50%</b> Spiffy Laundry</h1>
+
+<p class="desc">
+Isi data di bawah untuk mendapatkan voucher promo.
+</p>
+
+<div class="info">
+
+<b>Benefit</b>
+
+<p>Cashback e-payment 50% (maks. Rp100.000)</p>
+
+<br>
+
+<b>Berlaku untuk</b>
+
+<ul>
+
+<li>Cuci Kering Lipat</li>
+
+<li>Konsumen baru Spiffy Laundry</li>
+
+<li>Pembayaran QRIS, EDC, atau Transfer</li>
+
+<li>Periode promo 24 Juli – 31 Oktober 2026</li>
+
+</ul>
+
+</div>
+
+<label>Nama Lengkap *</label>
+
+<input
+type="text"
+id="nama"
+placeholder="Masukkan nama lengkap">
+
+<label>Nomor WhatsApp *</label>
+
+<input
+type="tel"
+id="wa"
+placeholder="08xxxxxxxxxx">
+
+<label>Alamat Domisili *</label>
+
+<textarea
+id="alamat"
+placeholder="Masukkan alamat domisili"></textarea>
+
+<div class="checkbox">
+
+<input
+type="checkbox"
+id="agree">
+
+<span>
+
+Saya telah membaca dan menyetujui syarat & ketentuan promo.
+
+</span>
+
+</div>
+
+<button
+id="submitBtn"
+onclick="kirim()">
+
+KLAIM VOUCHER
+
+</button>
+
+<div id="hasil"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
